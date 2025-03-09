@@ -1,0 +1,83 @@
+/* This is quite a mess as well, but I learned a lot about CSS from tinkering around*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3b3b3f;
+    color: #c7c7cc;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    background-image: url(bannerimg.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: FFFFFF;
+    padding: 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 18px;
+    max-width: 600px;
+}
+
+nav ul {
+	background-color: #252529;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: 7cacf8;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #252529;
+}
+
+h2 {
+    color: #7cacf8;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
